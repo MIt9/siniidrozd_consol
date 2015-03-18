@@ -22,7 +22,7 @@ var server = new http.Server(function(req, res) {
     }
 
     else {
-        res.statusCode = 404; // Not Found
+        res.statusCode = 404; // Not Found bla
         res.end("Page not found");
     }
 
